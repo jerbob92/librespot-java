@@ -151,7 +151,7 @@ public final class FileConfiguration extends AbsConfiguration {
 
     @Override
     public float normalisationPregain() {
-        return config.get("player.normalisationPregain");
+        return (float) config.get("player.normalisationPregain");
     }
 
     @NotNull
